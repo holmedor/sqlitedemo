@@ -45,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
 //            bd.execSQL("UPDATE producto set nombre = 'Tablet Windows 10' WHERE nombre = 'iPad'");
 //          bd.execSQL("DELETE from producto WHERE stock= 20");
 
-            bd.execSQL("UPDATE producto set stock = 30 WHERE id = 1");
-            bd.execSQL("DELETE from producto WHERE id= 3");
+//            bd.execSQL("UPDATE producto set stock = 30 WHERE id = 1");
+//            bd.execSQL("DELETE from producto WHERE id= 3");
 
             //RECORRER LA TABLA
 //            Cursor cursor = bd.rawQuery("SELECT nombre, stock FROM producto", null);
